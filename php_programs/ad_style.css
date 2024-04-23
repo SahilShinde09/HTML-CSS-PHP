@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navv{
+  width: 100%;
+  min-width: 100vh;
+  background-image: url('Admin back.png');
+  background-size: cover;
+  padding: 30px 3%;
+  overflow: hidden;
+
+}
+
+nav{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 15px;
+}
+
+nav ul li h2{
+  font-size: 35px;
+  color: #000000;
+  float: left;
+}
+
+.content{
+  margin-top: 10%;
+  text-align: center;
+
+}
+.content h1{
+  font-size: 90px;
+  color: #000000;
+}
+
+.btn{
+    text-decoration: none;
+    color: #000000;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 3px solid #000000;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #000000;
+}
+
+.logo{
+  width: 90px;
+  height: 80px;
+}
+
+.log{
+  color: #000000;
+  text-decoration: none;
+}
+
+.txt{
+  text-align: center;
+  margin-top: 3%;
+  font-size: 20px;
+}
